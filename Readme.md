@@ -1,6 +1,6 @@
 # Rapid ST3 Setup  
 
-![N|Solid](https://upload.wikimedia.org/wikipedia/en/4/4c/Sublime_Text_Logo.png)
+![N|Solid](https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Sublime_Text_3_logo.png/150px-Sublime_Text_3_logo.png)
 
 Repo's Main Moto to provide rapid **Sublime Text 3** Setup with awesome plugins and obviously with sleek theme.
 
