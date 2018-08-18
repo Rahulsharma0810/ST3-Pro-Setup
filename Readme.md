@@ -12,26 +12,25 @@ Repo's Main Moto to provide rapid **Sublime Text 3** Setup with awesome plugins 
 
 ### Plugins
 
-| Plugins        			| Discription   																										| More info on Installation  |
-| ----------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------:| -------------------------------------------------------------:|
-| All Autocomplete      		| Extend Sublime autocompletion to find matches in all open files of the current window 	| [Link](https://packagecontrol.io/packages/All%20Autocomplete) |
-| GitGutter      			| A Sublime Text 2/3 plugin to see git diff in gutter 						| [Link](https://packagecontrol.io/packages/GitGutter)|
-| SideBarEnhancements	| Enhancements to Sublime Text sidebar. Files and folders. 					| [Link](https://packagecontrol.io/packages/SideBarEnhancements)|
-| SublimeLinter 		| Interactive code linting framework for Sublime Text 3 					| [Link](https://packagecontrol.io/packages/SublimeLinter)|
-| SublimeLinter-csslint		| SublimeLinter plugin for CSS, using csslint. 							| [Link](https://packagecontrol.io/packages/SublimeLinter-csslint)|
-| SublimeLinter-html-tidy	| SublimeLinter 3 plugin for html tidy. 								| [Link](https://packagecontrol.io/packages/SublimeLinter-html-tidy)|
-| SublimeLinter-json		| SublimeLinter plugin for JSON. 								| [Link](https://packagecontrol.io/packages/SublimeLinter-json)|
-| SublimeLinter-php		| SublimeLinter 3 plugin for PHP, using php -l. 							| [Link](https://packagecontrol.io/packages/SublimeLinter-phplint)|
-| SublimeLinter-jshint		| SublimeLinter plugin for JavaScript, using jshint. 						| [Link](https://packagecontrol.io/packages/SublimeLinter-php)|
+| Plugins                 |                         Discription                          |                                    More info on Installation |
+| ----------------------- | :----------------------------------------------------------: | -----------------------------------------------------------: |
+| All Autocomplete        | Extend Sublime autocompletion to find matches in all open files of the current window | [Link](https://packagecontrol.io/packages/All%20Autocomplete) |
+| GitGutter               |     A Sublime Text 2/3 plugin to see git diff in gutter      |         [Link](https://packagecontrol.io/packages/GitGutter) |
+| SideBarEnhancements     |   Enhancements to Sublime Text sidebar. Files and folders.   | [Link](https://packagecontrol.io/packages/SideBarEnhancements) |
+| SublimeLinter           |    Interactive code linting framework for Sublime Text 3     |     [Link](https://packagecontrol.io/packages/SublimeLinter) |
+| SublimeLinter-csslint   |         SublimeLinter plugin for CSS, using csslint.         | [Link](https://packagecontrol.io/packages/SublimeLinter-csslint) |
+| SublimeLinter-html-tidy |            SublimeLinter 3 plugin for html tidy.             | [Link](https://packagecontrol.io/packages/SublimeLinter-html-tidy) |
+| SublimeLinter-json      |                SublimeLinter plugin for JSON.                | [Link](https://packagecontrol.io/packages/SublimeLinter-json) |
+| SublimeLinter-php       |        SublimeLinter 3 plugin for PHP, using php -l.         | [Link](https://packagecontrol.io/packages/SublimeLinter-phplint) |
+| SublimeLinter-jshint    |      SublimeLinter plugin for JavaScript, using jshint.      | [Link](https://packagecontrol.io/packages/SublimeLinter-php) |
 
 
 ## Installation
 
- 1. ``` CTRL/COMMAND + SHIFT + P ``` and Install ```Package Controller```
- 2. Replace ALL repo files to ``` Browse Package Folder```.
- ![st3-browse-package](https://12621-presscdn-0-7-pagely.netdna-ssl.com/wp-content/uploads/2012/07/browse-packages.png)
- 3. Package Control will automatically install Packages according to 
-Package%20Control.sublime-settings
+  1. ``` CTRL/COMMAND + SHIFT + P ``` and Install ```Package Controller```
+  2. Replace ALL repo files to ``` Browse Package Folder```.
+  3. Package Control will automatically install Packages according to 
+  `Package Control.sublime-setting` 
 
 ---
 
@@ -107,57 +106,57 @@ brew install tidy-html5
 
 ```
 {
-	"always_show_minimap_viewport": true,
-	"caret_style": "wide",
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme",
-	"dpi_scale": 2.0,
-	//  For Linux Kde
-	"font_face": "Noto Sans",
-	"font_size": 14,
-	"gutter_theme": "Packages/Boxy Theme/extras/SublimeLinter/Boxy.gutter-theme",
-	"highlight_line": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
-	"theme": "Boxy Tomorrow.sublime-theme",
-	"theme_accent_blue": true,
-	"theme_autocomplete_item_selected_colored": true,
-	"theme_bar": true,
-	"theme_button_rounded": true,
-	"theme_dirty_colored_always": true,
-	"theme_find_panel_close_hidden": true,
-	"theme_find_panel_font_xl": true,
-	"theme_find_panel_materialized": true,
-	"theme_find_panel_padding_xl": true,
-	"theme_find_panel_size_xl": true,
-	"theme_font_xl": true,
-	"theme_grid_border_size_xl": true,
-	"theme_icon_button_highlighted": true,
-	"theme_icons_materialized": true,
-	"theme_minimap_viewport_opacity_xxh": true,
-	"theme_popup_border_visible": true,
-	"theme_quick_panel_border_visible": true,
-	"theme_quick_panel_item_selected_colored": true,
-	"theme_quick_panel_size_xl": true,
-	"theme_scrollbar_colored": true,
-	"theme_sidebar_border": true,
-	"theme_sidebar_font_xl": true,
-	"theme_sidebar_heading_bold": true,
-	"theme_sidebar_highlight_selected_text_only": true,
-	"theme_sidebar_highlight_text_only": true,
-	"theme_sidebar_indent_top_level_disabled": true,
-	"theme_sidebar_size_xl": true,
-	"theme_size_xl": true,
-	"theme_statusbar_font_xl": true,
-	"theme_statusbar_label_bold": true,
-	"theme_statusbar_size_xl": true,
-	"theme_tab_highlight_text_only": true,
-	"theme_tab_selected_filled": true,
-	"theme_tab_size_xxl": true,
-	"theme_tooltips_font_xl": true,
-	"theme_unified": true
+    "always_show_minimap_viewport": true,
+    "caret_style": "wide",
+    "color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme",
+    "dpi_scale": 2.0,
+    //  For Linux Kde
+    "font_face": "Noto Sans",
+    "font_size": 14,
+    "gutter_theme": "Packages/Boxy Theme/extras/SublimeLinter/Boxy.gutter-theme",
+    "highlight_line": true,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "line_padding_bottom": 2,
+    "line_padding_top": 2,
+    "theme": "Boxy Tomorrow.sublime-theme",
+    "theme_accent_blue": true,
+    "theme_autocomplete_item_selected_colored": true,
+    "theme_bar": true,
+    "theme_button_rounded": true,
+    "theme_dirty_colored_always": true,
+    "theme_find_panel_close_hidden": true,
+    "theme_find_panel_font_xl": true,
+    "theme_find_panel_materialized": true,
+    "theme_find_panel_padding_xl": true,
+    "theme_find_panel_size_xl": true,
+    "theme_font_xl": true,
+    "theme_grid_border_size_xl": true,
+    "theme_icon_button_highlighted": true,
+    "theme_icons_materialized": true,
+    "theme_minimap_viewport_opacity_xxh": true,
+    "theme_popup_border_visible": true,
+    "theme_quick_panel_border_visible": true,
+    "theme_quick_panel_item_selected_colored": true,
+    "theme_quick_panel_size_xl": true,
+    "theme_scrollbar_colored": true,
+    "theme_sidebar_border": true,
+    "theme_sidebar_font_xl": true,
+    "theme_sidebar_heading_bold": true,
+    "theme_sidebar_highlight_selected_text_only": true,
+    "theme_sidebar_highlight_text_only": true,
+    "theme_sidebar_indent_top_level_disabled": true,
+    "theme_sidebar_size_xl": true,
+    "theme_size_xl": true,
+    "theme_statusbar_font_xl": true,
+    "theme_statusbar_label_bold": true,
+    "theme_statusbar_size_xl": true,
+    "theme_tab_highlight_text_only": true,
+    "theme_tab_selected_filled": true,
+    "theme_tab_size_xxl": true,
+    "theme_tooltips_font_xl": true,
+    "theme_unified": true
 }
 ```
